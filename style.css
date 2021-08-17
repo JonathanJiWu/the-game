@@ -1,41 +1,8 @@
-body{
-    margin: 0;
-    padding: 0;
-    display: grid;
+#myCanvas{
+    width: 1920px;
+    height: 1080px;
+    border: 2px solid black;
 }
-#game{
-    display: grid;
-    position: relative;
-}
-#char{
-    display: grid;
-    position: absolute;
-    top: 35vw
-
-}
-#hero{
-    background-color: blue;
-    width: 5vw;
-    height: 10vw;
-    position: absolute;
-    left: 10vw;
-
-}
-#enermy{
-    background-color: red;
-    width: 5vw;
-    height: 10vw;
-    position: absolute;
-    left:99vw
-}
-#background{
-    width: 100vw;
-    height: inherit;
-    object-fit:fill;
-}
-
-<div id="background"></div>
-<!-- health and attack -->
-<div id="StatusBar"></div>
-<!-- to start game and dialogues -->
-<div id="inputBar"></div>
+/* body{
+    background-color: ;
+} */
